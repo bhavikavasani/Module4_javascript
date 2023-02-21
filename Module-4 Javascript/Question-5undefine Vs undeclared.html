@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undefined Vs Undeclared</title>
+</head>
+<style>
+    h2{
+        width:10%;
+        padding: 5px;
+        background-color: yellow;
+        color:red;
+    }
+</style>
+<body>
+    <h2>Undefined:</h2><p style="color:brown"> It occurs when a variable has been declared but has not been assigned any value. Undefined is not a keyword. <br> 
+        <hr>
+        <b>for example:</b> <br> 
+        var dog;<br>
+        console.log(dog);</p>
+        <b>output:</b> <br> 
+        Undefined<br><br><hr>
+   <script type="text/JavaScript">
+        var dog;
+        console.log(dog);
+    </script>
+
+
+
+<h2>Undeclared:</h2><p style="color:brown"> An example of an undeclared variable is when there is no such variable in the program. <br> <br>For example, let’s try to print a variable called cat without having such a variable in the program:
+    <br><br><hr>
+    <b>for example:</b> <br> 
+        console.log(cat);</p>
+        <b>output:</b> <br> 
+        Uncaught ReferenceError: cat is not defined<br><br>
+
+    <script type="text/JavaScript">
+        
+        console.log(cat);
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert string to integer in JS</title>
+</head>
+<body>
+    <h1>How to convert any string type to integer in javascript?</h1>
+    <p style="font-size: 20px;">We can convert any string type to integer use <mark style="padding: 5px;background-color: rgb(170, 173, 175);">parseInt()</mark> Method.</p>
+    <p style="background-color: yellow;padding: 5px; width:30%; font-size:18px;"><b>Note:</b> You can see the output in Console.</p>
+    <script>
+        var a=10;  // number
+        var b=parseInt("20"); // string
+    // parseInt()  this is a default method in javascript is called type casting method it will used to convert any variables datatypes 
+     //to check the type of the data using this method.(typeof)   
+    // document.write(typeof(a));
+    //document.write(typeof(b));
+        var c=a+b;
+        console.log("Additions of numbers is :",c);
+    </script>
+    <p style="width:50%;  background-color: bisque; padding: 7px;">without <b>parseInt()</b> method you can check the result in console.
+    because whenever you assign the value in the double quote it will decide string value of the variable and output will be 1020.(addition of two value but one is number and another is string it means not addition it will combine the both value.</p>
+    <img src="images/parseInt_output.PNG" width="250px" height="200px">
+    <!-- example without the parseInt method. -->
+    <script>
+    var a=10;//number
+    var b="20";//string
+    var c=a+b;
+    console.log("Addition of number is:",c);
+
+    </script>
+</body>
+</html>

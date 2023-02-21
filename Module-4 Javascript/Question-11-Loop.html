@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Looping structures</title>
+</head>
+<body>
+    <h3>What are all the looping structures in JavaScript?</h3>
+    <h4>Ans.</h4>
+    <p style="font-size: 20px;">Loops can execute a block of code a number of times.</p>
+    <h3>Example Of for loop:</h3>
+    <p>let text = "";<br><br>
+        
+        for (let i = 0; i < 5; i++) <br>{
+          
+          <br>&nbsp;&nbsp;   text += "The number is " + i + "<br>";
+        }<br><br>
+        
+        document.getElementById("demo").innerHTML = text;</p>
+    <p id="demo"></p>
+    <script>
+        let text = "";
+        
+        for (let i = 0; i < 5; i++) {
+          text += "The number is " + i + "<br>";
+        }
+        
+        document.getElementById("demo").innerHTML = text;
+    </script>
+        
+</body>
+</html>
